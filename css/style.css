@@ -246,11 +246,12 @@ ol {
 }
 
 
+
+
 .smallicon {
 	height: 75px;
 	width: 75px;
-	color: #D4AF37;
-	color
+	margin-bottom: 10px;
 }
 
 .loader {
@@ -471,11 +472,13 @@ ol {
 }
 
 .hero__text h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 72px;
 	line-height: 80px;
 	text-transform: uppercase;
 	margin-bottom: 45px;
+	text-shadow:#000000 ;
+	
 	position: relative;
 	top: 100px;
 	opacity: 0;
@@ -740,6 +743,16 @@ ol {
 	-webkit-box-shadow: 0px 15px 60px rgba(67, 69, 70, 0.1);
 	box-shadow: 0px 15px 60px rgba(67, 69, 70, 0.1);
 }
+
+.testimonial__carousel1 {
+	position: relative;
+	overflow: hidden;
+	background: #f5ea4e28;
+	padding: 75px 60px 90px;
+	margin-bottom: 20px;
+}
+	
+
 
 .testimonial__carousel:after {
 	position: absolute;
@@ -1271,13 +1284,13 @@ ol {
 }
 
 .footer__top {
-	border-bottom: 1px solid rgba(183, 183, 183, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	padding-bottom: 75px;
 	margin-bottom: 85px;
 }
 
 .footer__top__text h2 {
-	color: #ffffff;
+	color: #000000;
 	font-size: 38px;
 	text-transform: uppercase;
 }
@@ -1312,12 +1325,12 @@ ol {
 }
 
 .footer__top__newslatter form input::placeholder {
-	color: #b7b7b7;
+	color: #000000;
 }
 
 .footer__top__newslatter form button {
 	font-size: 14px;
-	color: #ffffff;
+	color: #000000;
 	background: #D4AF37;
 	border: none;
 	height: 100%;
@@ -1356,7 +1369,7 @@ ol {
 
 .footer__about .footer__social a {
 	font-size: 18px;
-	color: #ffffff;
+	color: #000000;
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
@@ -1376,7 +1389,7 @@ ol {
 }
 
 .footer__widget h6 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 600;
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 30px;
@@ -1397,7 +1410,7 @@ ol {
 }
 
 .footer__address h6 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 600;
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 30px;
@@ -1429,7 +1442,7 @@ ol {
 }
 
 .copyright__text p a {
-	color: #ffffff;
+	color: #000000;
 }
 
 .copyright__widget {
